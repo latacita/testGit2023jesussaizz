@@ -11,14 +11,21 @@
 (03)    git add bitacora.txt
         git commit -m "Paso 03"
 (04)    git push origin master
+
 (06)    git add bitacora.txt
         git commit -m "Paso 06"
 (07)    git branch feature/Ticket220
 (08)    git checkout feature/Ticket220
 
-
+(10)    git add .
+        git commit -m "Paso 10"
+(11)    git checkout develop
+(12)    git checkout -b feature/Ticket221
 (14)    git stash
         git checkout festure/Ticket220
+(16)    git add .
+        git commit -m "Paso 16"
+(17)    git checkout feature/Ticket221
 
 (18)    git stash apply stash@{0} + añadir 16,17
 (19)    git add .
@@ -27,3 +34,9 @@
 (21)    git branch feature/Ticket222
 (22)    git checkout feature/Ticket220
         Ahora mismo la fusion se haria por fast-foward
+
+(24)    git add .
+        git commit -m "Paso 24"
+(25)    git checkout develop
+(26)    git merge --no-ff feature/Ticket220
+(27)    git merge --no-ff feature/Ticket221     Se produce un conflicto, tengo que reordenar algunos pasos
