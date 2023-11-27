@@ -40,3 +40,10 @@
 (25)    git checkout develop
 (26)    git merge --no-ff feature/Ticket220
 (27)    git merge --no-ff feature/Ticket221     Se produce un conflicto, tengo que reordenar algunos pasos
+
+(29)    git add .
+        git commit -m "Paso 29"
+(30)    desde SourceTree, seria git tag Step29
+(31)    git push origin develop
+(32)    checkout feature/Ticket222
+(33)    git merge develop
