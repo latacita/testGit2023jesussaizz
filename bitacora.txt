@@ -15,3 +15,7 @@
         git commit -m "Paso 06"
 (07)    git branch feature/Ticket220
 (08)    git checkout feature/Ticket220
+
+
+(14)    git stash
+        git checkout festure/Ticket220
