@@ -19,3 +19,11 @@
 
 (14)    git stash
         git checkout festure/Ticket220
+
+(18)    git stash apply stash@{0} + añadir 16,17
+(19)    git add .
+        git commit -m "Paso 19"
+(20)    git checkout develop
+(21)    git branch feature/Ticket222
+(22)    git checkout feature/Ticket220
+        Ahora mismo la fusion se haria por fast-foward
